@@ -51,3 +51,6 @@ This project interacts with a live database both by the command line and by the 
   - This Query finds the average number of visitors per day so it is easy to track the websites' popularity.
 * Query 5, What is the best time to do website maintenance?
   - This Query finds the hour of the day when the least amount of HTTP requests are received by the website, therefore suggesting the best time to do website maintenance.
+  
+** Below is the snapshot of the ouptut file
+![Image of output](https://github.com/Patel-Meet/Database-Reporting-tool/blob/master/Capture.PNG)
