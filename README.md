@@ -14,7 +14,7 @@ This project interacts with a live database both by the command line and by the 
 ## Installation steps:
 * Install VirtualBox.
 * Install Vagrant.
-* Clone this repo to the vagrant folder i.e. the shared folder.
+* Clone this repo, unzip `newsdata.zip` and move all the contents to the vagrant folder i.e. the shared folder.
 * In the command line go to the vagrant folder and type `vagrant up` then type `vagrant ssh` to log into the virtual machine.
 
 ## Running the project:
