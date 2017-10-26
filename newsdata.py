@@ -83,7 +83,7 @@ Query4 = '''SELECT CAST(AVG(Nested.total) as INTEGER) AS Average_per_day
                  ) AS Nested;
          '''
 Query5_title = "5. What is the best time to do website maintenance?"
-Query5 = '''SELECT CONCAT(EXTRACT(HOUR FROM L.time), ':00:00') AS Maintainance_Time
+Query5 = '''SELECT EXTRACT(HOUR FROM L.time)AS Maintainance_Time
             FROM log L
             GROUP BY Maintainance_Time
             ORDER BY COUNT(*) LIMIT 1;
